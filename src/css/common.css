@@ -17,6 +17,47 @@ img {
   max-width: 100%;
 }
 
+/* Styles for color switcher */
+
+.buttons {
+  text-align: center;
+}
+
+button[data-start],
+button[data-stop] {
+  background-color: #e4e7ea;
+  border: 1px solid rgba(194, 223, 226, 0.789);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 25px;
+}
+
+button[data-start]:hover,
+button[data-stop]:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+/* Styles for timer */
+
+.datetime-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#datetime-picker {
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid rgba(194, 223, 226, 0.789);
+}
+
 .timer {
   display: flex;
   gap: 20px;
