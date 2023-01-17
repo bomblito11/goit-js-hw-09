@@ -13,7 +13,7 @@ function changeColor() {
     document.body.style.backgroundColor = getRandomHexColor();
     startChanging.disabled = true;
     stopChanging.disabled = false;
-  }, 500);
+  }, 1000);
 }
 
 function stopChangeColor() {
