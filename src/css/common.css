@@ -38,14 +38,15 @@ button[data-stop] {
   padding: 6px 25px;
 }
 
-button[data-start]:hover:enabled,
-button[data-stop]:hover:enabled {
+.btn-colorChange:hover:enabled,
+.btn-stopColorChange:hover:enabled {
   background-color: #f3f4f6;
   text-decoration: none;
   transition-duration: 0.1s;
 }
 
-button:disabled {
+.btn-colorChange:disabled,
+.btn-stopColorChange:disabled {
   border: 1px solid #999999;
   background-color: #cccccc;
   color: #666666;
