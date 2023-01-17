@@ -38,11 +38,18 @@ button[data-stop] {
   padding: 6px 25px;
 }
 
-button[data-start]:hover,
+button[data-start]:hover:enabled,
 button[data-stop]:hover {
   background-color: #f3f4f6;
   text-decoration: none;
   transition-duration: 0.1s;
+}
+
+button:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: auto;
 }
 
 /* Styles for timer */
