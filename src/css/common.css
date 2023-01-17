@@ -39,7 +39,7 @@ button[data-stop] {
 }
 
 button[data-start]:hover:enabled,
-button[data-stop]:hover {
+button[data-stop]:hover:enabled {
   background-color: #f3f4f6;
   text-decoration: none;
   transition-duration: 0.1s;
